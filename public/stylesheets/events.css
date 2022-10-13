@@ -1,3 +1,26 @@
+body {
+    background-color: #ADD0D0;
+}
+
+h1 {
+   color: #004040;
+   text-align: center;
+}
+
+.calendar {
+    text-align:center;
+    width:100%;
+    border: 2px solid #545B99;
+  }
+  .calendar > iframe{
+    width: 100%;
+  }
+
+input[type="text"], textarea {
+    background-color: #ADD0D0;
+    opacity: 30%;
+}
+
 p {
     text-align: center;
 }

@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Events</title>
-  <link rel="stylesheet" type="text/css" href="/stylesheets/events.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/events.css" />
 </head>
 <body>
   <%- include('handlebars/nav') %>
   <div class="container d-flex flex-column">
-    <div><iframe src="https://calendar.google.com/calendar/embed?src=c77dfae4bf0adf4ac9b1e66dea21026e50a440f55c751b1ec14b2b6e27dea14c%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe></div>
+    <h1>Seattle O.I.D.S.I. Events Calendar</h1>
+    <div class="calendar"><iframe src="https://calendar.google.com/calendar/embed?src=c77dfae4bf0adf4ac9b1e66dea21026e50a440f55c751b1ec14b2b6e27dea14c%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe></div>
   </div>
   <%- include('handlebars/footer') %>
 </body>
