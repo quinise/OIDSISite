@@ -1,10 +1,20 @@
 body {
     background-color: #ADD0D0;
+    font-family: "Gudea";
+}
+
+nav {
+  background: #bec0c2;
+  border-bottom-right-radius: 2%;
+  border-bottom-left-radius: 2%;
 }
 
 h1 {
-   color: #004040;
-   text-align: center;
+    color: #004040;
+    text-align: center;
+    margin: 25px;
+    font-family: "hammersmith_one";
+
 }
 
 .calendar {
