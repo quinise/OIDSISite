@@ -1,16 +1,16 @@
 body {
-    background-color: #ADD0D0;
+    background-color: #fff;
     font-family: "Gudea";
 }
 
 nav {
-    background: #bec0c2;
+    background: #fff;
     border-bottom-right-radius: 2%;
     border-bottom-left-radius: 2%;
 }
 
 h1 {
-    color: #004040;
+    color: #000080;
     font-family: "hammersmith_one";
 }
 
@@ -26,9 +26,9 @@ h1 {
 
 #ile_img, #logo_img {
     display: block;
-    border: 3px double #545B99;
+    border: 5px double #545B99;
     Border-style: Outset Attribute;
-    background: #775C99;
+    background: #C8FA0C;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;

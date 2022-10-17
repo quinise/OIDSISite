@@ -1,5 +1,11 @@
 nav {
-    background: #bec0c2;
+    background: #fff;
     border-bottom-right-radius: 2%;
     border-bottom-left-radius: 2%;
+    box-shadow: 5px 10px 18px #888888;
+
 }
+
+ .navbar {
+    background: #fff;
+ }

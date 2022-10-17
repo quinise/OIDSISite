@@ -1,19 +1,13 @@
 body {
-    background-color: #ADD0D0;
+    background-color: #fff;
     font-family: "Gudea";
-}
-
-nav {
-    background: #bec0c2;
-    border-bottom-right-radius: 2%;
-    border-bottom-left-radius: 2%;
 }
 
 h1 {
     text-align: center;
     display: block;
     width: 100%;
-    color: #004040;
+    color: #000080;
     font-family: "hammersmith_one";
 }
 form {
@@ -23,7 +17,7 @@ form {
     padding-left:3%;
     padding-bottom: 3%;
     margin: 5%;
-    border: 7px double #545B99;
+    border: 7px double #000080;
     margin-right: auto;
     margin-left: auto;
     box-shadow: 5px 10px 18px #888888
@@ -38,16 +32,17 @@ label {
 
 input, textarea  {
 
-    padding: 5px;;
-    margin: 10px;
-    border: 1px solid #545B99;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 15px;
+    border: 1px solid #000080;
     display: block;
-    background-color: #ADD0D0;
+    background-color: #fff;
 
 }
 
 input[type="text"], input[type="email"], textarea  {
-    background-color: #ADD0D0;
+    background-color: #fff;
 
 }
 

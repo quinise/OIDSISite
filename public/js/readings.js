@@ -1,17 +1,22 @@
 // Readings Link Page Data
 
 var priest_details = [{
-    priest_name: "Khepra Ptah",
+    priest_name: "Ifalowo 'Khepra Ptah'",
     link: "www.google.com",
     photo_url: "/images/stock_profile.jpeg"
 },
 {
-    priest_name: "Iya Kim Early",
+    priest_name: "Baba Fasanmi",
     link: "www.google.com",
     photo_url: "/images/stock_profile.jpeg"
 },
 { 
     priest_name: "Iya Omitosin",
+    link: "www.google.com",
+    photo_url: "/images/stock_profile.jpeg"
+
+},
+{   priest_name: "Iya Omiseun",
     link: "www.google.com",
     photo_url: "/images/stock_profile.jpeg"
 

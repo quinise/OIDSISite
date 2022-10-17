@@ -1,5 +1,5 @@
 body {
-    background-color: #ADD0D0;
+    background-color: #fff;
     font-family: "Gudea", sans-serif;
 }
 
@@ -14,16 +14,16 @@ h1, h2 {
     display: block;
     margin: 50px;
     text-align: center;
-    color: #005a5a;
+    color: #000080;
 }
 
 h1 {
-    color: #005a5a;
+    color: #000080;
     font-family: "hammersmith_one";
 }
 
 h2 {
-    color: #545B99
+    color: grey;
 }
 a > img {
     display: block;
