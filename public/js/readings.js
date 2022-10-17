@@ -1,7 +1,7 @@
 // Readings Link Page Data
 
 var priest_details = [{
-    priest_name: "Ifalowo 'Khepra Ptah'",
+    priest_name: "Ifalowo Khepra Ptah",
     link: "www.google.com",
     photo_url: "/images/stock_profile.jpeg"
 },
