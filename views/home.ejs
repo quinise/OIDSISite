@@ -9,6 +9,7 @@
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <link rel="stylesheet" type="text/css" href="/stylesheets/home.css"/>
   <link rel="stylesheet" type="text/css" href="/stylesheets/navbar.css" />
+  <link rel="stylesheet" type="text/css" href="/stylesheets/slideshow.css" />
   <link rel="stylesheet" type="text/css" href="/stylesheets/footer.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hammersmith_One">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gudea">
@@ -19,25 +20,16 @@
     <div class="row">
       <div class="intro col">
         <h1 class="justify-content-center">Ile Iwori-Bogbe</h1>
-        <h2>Seattle, Washington</h2>
+        <h2 class="justify-content-center">Seattle, Washington</h2>
       </div> 
     </div>
-    <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-interval="3000">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="/images/cookout-crowd4.png" alt="First slide **ToDo">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="/images/ancestor-offering.JPG" alt="Second slide **ToDo">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="/images/ile-at-conference.png" alt="Third slide **ToDo">
-        </div>
-      </div>
+    <div class="slideshow row">
+      <%- include('handlebars/slideshow') %>
     </div>
     <a class="row" href="https://www.obafemi.org"><img id="logo_img" src="/images/logo.png" alt="**ToDo**need description"></a>
     <%- include('handlebars/footer') %>
   </div>
   <script src="/js/home.js"></script>
+  <script src="/js/slideshow.js"></script>
 </body>
 </html>
