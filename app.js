@@ -22,6 +22,9 @@ app.get('/contact', function(req, res) {
 app.get('/about', function(req, res) {
   res.render('about.ejs')})
 
+app.get('/gallery', function(req, res) {
+  res.render('gallery.ejs')})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}` );
 });
