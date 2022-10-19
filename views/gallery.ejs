@@ -9,16 +9,22 @@
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hammersmith_One">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gudea">
-  <link rel="stylesheet" type="text/css" href="/stylesheets/about.css" />
+  <link rel="stylesheet" type="text/css" href="/stylesheets/gallery.css" />
   <link rel="stylesheet" type="text/css" href="/stylesheets/footer.css" />
   <link rel="stylesheet" type="text/css" href="/stylesheets/navbar.css" />
+  <link rel="stylesheet" type="text/css" href="/stylesheets/gallery-slideshow.css" />
 </head>
 <body>
   <%- include('handlebars/nav') %>
-  <h1 class="row justify-content-center">Allafia!</h1>
-  <div class="row">
-   <%- include('handlebars/gallery-slideshow') %>
+  <div class="wrapper">
+    <h1 class="row justify-content-center">Alaffia!</h1>
+    <h2>*youba:? "We love to share good times"*</h2>
+    <div class="gallery-container row">
+        <%- include('handlebars/gallery-slideshow') %>
+    </div>
+    <%- include('handlebars/footer') %>
   </div>
-  <%- include('handlebars/footer') %>
 </body>
+<script src="/js/slideshow.js"></script>
+<script src="/js/gallery.js"></script>
 </html>

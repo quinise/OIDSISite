@@ -1,0 +1,46 @@
+* {
+    padding:0;
+    margin:0;
+}    
+
+body {
+    background-color: #fff;
+    font-family: "Gudea", sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display:flex; 
+    flex-direction:column;
+    text-align: center;
+}
+
+#wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #000080; 
+    margin: 15px;
+}
+
+.gallery-container {
+    display: block;
+    position:relative;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.slide img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 1px;
+    top: 0px;
+}
