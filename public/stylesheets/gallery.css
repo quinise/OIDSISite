@@ -18,10 +18,14 @@ body {
     margin: 0 auto;
 }
 
+h1 {
+    font-family: "hammersmith_one";
+}
+
 h1, h2 {
     text-align: center;
     color: #000080; 
-    margin: 15px;
+    margin: 1px;
 }
 
 .gallery-container {

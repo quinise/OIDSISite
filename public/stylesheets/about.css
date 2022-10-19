@@ -9,16 +9,10 @@ body {
     display:flex; flex-direction:column;
 }
 
-nav {
-    background: #fff;
-    border-bottom-right-radius: 2%;
-    border-bottom-left-radius: 2%;
-}
-
 h1 {
     color: #000080;
     text-align: center;
-    margin: 4%;
+    margin: 1%;
     font-family: "hammersmith_one";
 }
 

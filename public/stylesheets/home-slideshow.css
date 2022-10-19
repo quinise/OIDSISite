@@ -43,11 +43,11 @@
   transform: scale(1.1);
 }
 .btn-prev {
-  top: 70%;
+  top: 100%;
   left: 30%;
 }
 
 .btn-next {
-  top: 70%;
+  top: 100%;
   right: 20%;
 }
