@@ -13,8 +13,8 @@ app.get('/', function(req, res) {
 app.get('/events', function(req, res) {
   res.render('events.ejs')})
 
-app.get('/readings', function(req, res) {
-  res.render('readings.ejs')})
+app.get('/services', function(req, res) {
+  res.render('services.ejs')})
 
 app.get('/contact', function(req, res) {
   res.render('contact.ejs')})
