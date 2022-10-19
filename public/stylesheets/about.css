@@ -16,6 +16,12 @@ h1 {
     font-family: "hammersmith_one";
 }
 
+hr {    
+    margin-left: 40%;
+    width: 20%;
+    border-bottom: 2px solid #BCE32D; 
+}
+
 .container {
     margin: auto;
     width: 100%;

@@ -28,6 +28,16 @@ h1, h2 {
     margin: 1px;
 }
 
+h2 {
+    margin: 10px;
+}
+
+hr { 
+    margin-left: 40%;   
+    width: 20%;
+    border-bottom: 2px solid #BCE32D; 
+}
+
 .gallery-container {
     display: block;
     position:relative;

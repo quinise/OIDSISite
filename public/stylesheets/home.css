@@ -38,6 +38,12 @@ h2 {
     color: grey;
 }
 
+hr {    
+    margin-left: 40%;
+    width: 20%;
+    border-bottom: 2px solid #BCE32D; 
+}
+
 .intro {
     text-align: center;
     display: block;
