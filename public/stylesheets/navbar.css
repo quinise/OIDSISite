@@ -1,11 +1,19 @@
 nav {
     background: #fff;
-    border-bottom-right-radius: 2%;
-    border-bottom-left-radius: 2%;
     box-shadow: 5px 10px 18px #888888;
 }
 
  .navbar {
     background: #fff;
     margin-bottom: 5%;
+ }
+
+ .navbar-toggler-icon{
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: #fff;
  }

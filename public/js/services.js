@@ -1,4 +1,4 @@
-// Readings Link Page Data
+// Services Page Data
 
 var priest_details = [{
     priest_name: "Ifalowo Khepra Ptah",
