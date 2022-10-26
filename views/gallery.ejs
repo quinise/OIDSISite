@@ -3,28 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1> 
-  <title>About</title>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <title>About</title>  
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hammersmith_One">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gudea">
   <link rel="stylesheet" type="text/css" href="/stylesheets/gallery.css" />
-  <link rel="stylesheet" type="text/css" href="/stylesheets/footer.css" />
-  <link rel="stylesheet" type="text/css" href="/stylesheets/navbar.css" />
-  <link rel="stylesheet" type="text/css" href="/stylesheets/gallery-slideshow.css" />
+  <link rel="stylesheet" type="text/css" href="/stylesheets/global.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </head>
 <body>
-  <%- include('handlebars/nav') %>
+  <%- include('partials/nav') %>
   <div class="wrapper">
-    <h1 row justify-content-center>A nifẹ lati pin awọn akoko ti o dara</h1>
-    <h2>We love to share good times</h2>
-    <hr>
-    <div class="gallery-container row">
-        <%- include('handlebars/gallery-slideshow') %>
+    <div class="intro">
+      <h1 row justify-content-center>A nifẹ lati pin awọn akoko ti o dara</h1>
+      <h2>We love to share good times</h2>
     </div>
-    <%- include('handlebars/footer') %>
+    <hr class="hr">
+    <div class="slideshow row">
+      <%- include('partials/gallery-carousel') %>
+    </div>
+    <%- include('partials/footer') %>
   </div>
 </body>
-<script src="/js/slideshow.js"></script>
 </html>

@@ -1,3 +1,3 @@
 # OIDSISite
 
-To run, use node app.js.
+To run, use npm start.
