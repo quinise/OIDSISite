@@ -9,24 +9,11 @@
     color: #000080;
 }
 
-.priest_card {
+img {
     display: block;
     height: 50%;
-    width: 75%;
-    margin: 10px;
-    margin-bottom: 100px;
-    margin-left: 13%;
-    border: 2px solid #C8FA0C;
+    width: 35%;
+    margin: 0 auto;
+    margin-bottom: 5%;
     box-shadow: 5px 10px 18px #888888;
-}
-
-.priest_link {
-    display: inline;
-    position: relative;
-    color: #545B99;
-    padding: 10%;
-}
-
-.profile_pic {
-    display: inline;
 }
