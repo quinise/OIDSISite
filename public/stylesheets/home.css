@@ -8,14 +8,13 @@
 .intro {
     text-align: center;
     display: block;
-    margin-top: 10%;
     justify-content: center;
     width: 100%;
 }
 
 #carouselControls {
-    width: 60%;
-    height: 40%;
+    width: 20%;
+    height: 10%;
     margin: 0 auto;
 }
 

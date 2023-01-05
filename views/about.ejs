@@ -14,10 +14,18 @@
 </head>
 <body>
   <%- include('partials/nav') %>
-  <h1 class="row justify-content-center intro">We Are Ile Iwori-Bogbe</h1><br>
-  <hr class="hr"/>
-    <img  style="width:35%;height:auto;margin:0 auto;display:block;padding:0%" class="image col justify-content-center" src="/images/all-white.jpeg" alt="**ToDo**need description">
-    <p class="about-paragraph p-2"> We are a holistic healing institute that provides the necessary tools to positively enhance lives. Our mission is to assist in creating and maintaining wellness, globally and locally, within our respective communities. We strive to provide renewed vitality and optimum quality of life through traditional African-centered sciences and other alternative healing disciplines.</p>
-  <%- include('partials/footer') %>
+  <div id="container">
+    <div class="row">
+      <div class="col title">
+        <h1>We Are Ile Iwori-Bogbe</h1><br>
+        <hr class="hr"/>
+      </div>
+      <div class="about-section">
+        <img class="image" src="/images/all-white.jpeg" alt="**ToDo**need description"><br>
+        <p class="about-paragraph"> We are a holistic healing institute that provides the necessary tools to positively enhance lives. Our mission is to assist in creating and maintaining wellness, globally and locally, within our respective communities. We strive to provide renewed vitality and optimum quality of life through traditional African-centered sciences and other alternative healing disciplines.</p>
+      </div>
+    </div>
+    <%- include('partials/footer') %>
+  </div>
 </body>
 </html>
